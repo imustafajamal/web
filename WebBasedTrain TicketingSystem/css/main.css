@@ -1,0 +1,1090 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+body{
+    margin: 0;
+}
+/*Navbar Style*/
+.topnav {
+  background-color: rgba(1, 142, 113, 0.85);
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: rgb(15, 65, 17);
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+  /*Main Section Style*/
+  .main{
+    background-image: url('../imgs/back2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-color: rgba(17, 17, 17, 0.488);
+    background-blend-mode: multiply;
+  }
+  .main .content{
+    width: 50%;
+    text-align: center;
+    margin:auto;
+    color: white;
+    padding-top: 10%;
+  }
+  .main .content h1{
+    font-size: 5em;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  .main .content h5{
+    font-size: 2em;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: -25px;
+  }
+  .main .content a{
+    font-size: 1.5em;
+    background-color: rgb(1, 142, 114);
+    padding: 14px;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: -25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  .main .content a:hover{
+    background-color: rgb(15, 65, 17);
+  }
+  /*Services section style*/
+  .services{
+    width: 100%;
+    height: 80vh;
+    background-color: #222;
+    display: block;
+    text-align: center;
+  }
+  .services h1{
+    color: #ddd;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0;
+    font-size: 38px;
+  }
+  .services .serv{
+    display: inline-block;
+    margin-right: 70px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .services .serv i{
+    color: rgb(1, 142, 114);
+    font-size: 10em;
+  }
+  .services .serv h4{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .services .serv p{
+    color: #f2f2f2;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /*Routs Section Style */
+  .main-routs{
+    background-color: rgb(1, 142, 114);
+    text-align: center;
+  }
+  .main-routs h1{
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    margin: 0;
+    font-size: 38px;
+    text-shadow: rgba(17, 17, 17, 0.488) 1px 2px;
+  }
+  .routs{
+    width: 60%;
+    margin: auto;
+  }
+  .routs .slide{
+    margin: auto;
+    text-align: center;
+  }
+  .routs .slide img{
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+  .routs .slide h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(17, 17, 17, 0.488) 1px 2px;
+  }
+  .routs .slide h5{
+    font-size: 50px;
+    padding-top: 15%;
+    color: white;
+    text-shadow: rgba(17, 17, 17, 0.488) 1px 2px;
+
+  }
+  /* Footer Section Style Start */
+  footer{
+    background-color: #222;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:visible;
+  }
+  footer h4{
+    color: #f2f2f2;
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .social{
+    padding-bottom: 20px;
+  }
+  .social a{
+    padding: 8px;
+    font-size: 25px;
+    color: white;
+  }
+  .fa-facebook:hover{
+    color: #3b5998;
+  }
+  .fa-twitter:hover{
+    color: #00acee;
+  }
+  .fa-instagram:hover{
+    color: #F63852;
+  }
+  /*Log in form style */
+  .form-cont{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 32%;
+    margin: 5% auto;
+  }
+  .form-cont h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .form-cont form input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 1.5px solid rgb(0, 172, 115);
+  }
+  
+  .form-cont form input[type=submit] {
+    width: 100%;
+    background-color: rgb(0, 172, 115);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .form-cont form input[type=submit]:hover {
+    background-color: #0F4111;
+  }
+  .form-cont p a{
+    text-decoration: none;
+    color: rgb(0, 172, 115);
+  }
+  /* Tabs Style */
+  .tabs{
+    width: 60%;
+    margin: 50px auto;
+  }
+  .tabs button{
+    font-size: 23px;
+    padding: 14px;
+    margin-right: 12px;
+    background-color: #018869;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  .tabs button:hover{
+    background-color: #03e1ad;
+  }
+  /* Booking Form 1 Style */
+  .booking-cont-one{
+    background-color: whitesmoke;
+    width: 60%;
+    margin: -15px auto 30px;
+    border-radius: 20px;
+    padding: 16px;
+  }
+  .booking-cont-one h1{
+    color: #018869;
+    text-align: center;
+  }
+  .booking-cont-one form{
+    margin: 0 auto;
+    padding: 8px;
+    width: 100%;
+  }
+  .booking-cont-one form .line{
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .booking-cont-one form .oneline{
+    display: inline-block;
+    width: 250px;
+    margin-right: 15px;
+
+  }
+  .booking-cont-one form label{
+    text-align: left;
+    padding-left: 10px;
+    color: #018869;
+    font-size: 20px;
+  }
+  .booking-cont-one form .oneline .selector{
+    text-align: center;
+  }
+  .booking-cont-one form input , select{
+    width: 250px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1.3px solid #018869;
+    font-size: 18px;
+    background-color: white;
+    padding: 4px;
+  }
+  .booking-cont-one form input[type=submit]{
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  .booking-cont-one form input[type=submit]:hover{
+    background-color:#004837;
+    cursor: pointer;
+    text-align: center;
+  }
+  .booking-cont-one form h3{
+    text-align: left;
+    padding-left: 10px;
+    color: #018869;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+  .vbutton {
+    display: inline-block;
+    border: 1px solid #018869;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: bold;
+    -webkit-box-sizing: none;
+    box-sizing: unset;
+  }
+  
+  .vbutton:hover {
+    cursor: pointer;
+  }
+  
+  .selector #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .selector #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  .selector .select-tr {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #018869;
+    border-bottom: 1px solid #018869;
+    margin: 0;
+    width: 40px;
+    height: 42px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 0px;
+    padding-left: 10px;
+    
+  }
+  div.tip {
+    display:inline-block !important;
+    margin:0;
+    font-size: 18px;
+  }
+  abbr span, div.tip div {
+    position:absolute;
+    display:none;
+    z-index:10;
+    padding:12px;
+    margin:1.5em 0 0 8px;
+    max-width:0px;
+    border:2px solid #018869;
+    border-radius:6px;
+    box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: #ffffffdb;
+    visibility:hidden; opacity:0;
+    -webkit-transition:visibility 2s linear, opacity 2s linear;
+    transition: visibility 2s linear,opacity 2s linear;
+    }
+    abbr span, div.tip div ul li{
+      padding: 5px;
+    }
+  abbr:hover span, div.tip:hover div {
+    display:inline-block;
+    max-width:300px;
+    visibility:visible; opacity:1;
+    -webkit-transition-delay:0s;
+    transition-delay:0s;
+  }
+  /* Booking Form 1 Style */
+  .booking-cont-round{
+    background-color: whitesmoke;
+    width: 60%;
+    margin: -15px auto 30px;
+    border-radius: 20px;
+    padding: 16px;
+  }
+  .booking-cont-round h1{
+    color: #018869;
+    text-align: center;
+  }
+  .booking-cont-round form{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .booking-cont-round form .line-round{
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .booking-cont-round form .oneline-round{
+    display: inline-block;
+    width: 380px;
+    margin-right: 15px;
+
+  }
+  .booking-cont-round form input , select{
+    width: 350px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1.3px solid #018869;
+    font-size: 18px;
+    background-color: white;
+    padding: 4px;
+  }
+  .booking-cont-round form input[type=submit]{
+    width: 250px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1.3px solid #717171;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+  }
+  .booking-cont-round form input[type=submit]:hover{
+    background-color:#004837;
+    cursor: pointer;
+  }
+  .booking-cont-round form label{
+    text-align: left;
+    padding-left: 10px;
+    color: #018869;
+    font-size: 20px;
+  }
+  .booking-cont-round form h3{
+    text-align: left;
+    padding-left: 10px;
+    color: #018869;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+  .booking-cont-round form .selector{
+    margin: auto;
+    text-align: center;
+  }
+  /*account section style*/
+  .account-cont{
+    background-color: #f2f2f2;
+    width: 80%;
+    min-height: 80vh;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .account-cont h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -12px;
+    text-align: center;
+  }
+  .account-cont h1 span{
+    color: rgb(15, 131, 19);
+  }
+  .account-cont p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .account-cont h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .account-cont table{
+    margin: auto;
+    border: 2px solid #0F4111;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  .account-cont table td , th{
+    border: 2px solid #0F4111;
+    padding: 16px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .account-cont table a{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+  }
+  .account-cont table #cancle{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#ff0000;
+    color: white;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+  }
+  /*Control panal style */
+  .cntrl{
+    width: 70%;
+    min-height: 80vh;
+    margin: 30px auto;
+  }
+  .cntrl .liner{
+    display: block;
+    padding: 20px;
+    margin: auto;
+  }
+  .cntrl .liner a{
+    text-decoration: none;
+  }
+  .cntrl .liner a:hover{
+    cursor: pointer;
+  }
+  .cntrl .liner a .onel{
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right: 25px;
+    border-radius: 10px;
+  }
+  .cntrl .liner a .onel img{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+  }
+  .cntrl .liner a .onel h1{
+    text-align: center;
+    font-size: 25px;
+    color: darkgreen;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* trains style */
+  .trains{
+    width: 70%;
+    min-height: 80vh;
+    margin: 30px auto;
+  }
+  .trains .line{
+    display: block;
+    width: 97%;
+    padding: 10px;
+  }
+  .trains .line form{
+    display: inline-block;
+    width: 80%;
+    
+  }
+  .trains .line form input[type=text]{
+    width: 84%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #198068;
+    margin-right: 14px;
+    font-size: 18px;
+  }
+  .trains .line form input[type=submit]{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  .trains .line form input[type=submit]:hover{
+    background-color:#074d3d;
+    cursor: pointer;
+  }
+  .trains .line a{
+    float: right;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color:#018869;
+    color: white;
+    padding: 12px;
+    border: none;
+    text-decoration: none;
+    
+  }
+  .trains .liner a:hover{
+    background-color:#074d3d;
+    cursor: pointer;
+  }
+  .trains .train-cont{
+    background-color:#f2f2f2;
+    padding: 8px;
+    min-height: 80vh;
+    margin: 10px auto;
+    width: 95%;
+    border-radius: 10px;
+
+  }
+  .trains .train-cont table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 8px;
+  }
+  .trains .train-cont table th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #198068;
+  }
+  .trains .train-cont table td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #198068;
+  }
+  .trains .train-cont table td a{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration:none;
+  }
+  .trains .train-cont table td a:hover{
+    background-color: rgb(91, 0, 0);
+    cursor: pointer;
+  }
+  .popup{
+    background-color:#0000006d;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top: 0%;
+    display:none;
+  }
+  .popup .nt-cont{
+    width: 35%;
+    min-height: 50vh;
+    margin: 70px auto;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .popup .nt-cont h1{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin: 0;
+
+  }
+  .popup .nt-cont #close1{
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 0, 34);
+  }
+  .popup .nt-cont form{
+    width: 100%;
+    text-align: center;
+  }
+  .popup .nt-cont form input[type=text]{
+    width: 300px;
+    margin: 10px;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #198068;
+    border-radius: 5px;
+  }
+  .popup .nt-cont form input[type=submit]{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  .popup .nt-cont form input[type=submit]:hover{
+    background-color:#074d3d;
+    cursor: pointer;
+  }
+
+  /*passengers style*/
+  .passengers{
+    width: 70%;
+    min-height: 80vh;
+    margin: 30px auto;
+  }
+
+  .passengers form{
+    width: 100%;
+  }
+  .passengers form input[type=text]{
+    width: 90%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #198068;
+    margin-right: 14px;
+    font-size: 18px;
+  }
+  .passengers form input[type=submit]{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  .passengers form input[type=submit]:hover{
+    background-color:#074d3d;
+    cursor: pointer;
+  }
+  .passengers .pass-cont{
+    background-color:#f2f2f2;
+    padding: 8px;
+    min-height: 80vh;
+    margin: 10px auto;
+    width: 95%;
+    border-radius: 10px;
+
+  }
+  .passengers .pass-cont table{
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  .passengers .pass-cont table th{
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #198068;
+
+  }
+  .passengers .pass-cont table td{
+    border-collapse: collapse;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #198068;
+
+  }
+  .passengers .pass-cont table td a{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+
+  }
+
+  /*Available Trains Section Style*/
+  .avail-train{
+    margin: 30px auto;
+    width: 60%;
+    padding: 12px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    min-height: 80vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .avail-train table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .avail-train table td{
+    text-align: center;
+    border: 2px solid #0F4111;
+    padding: 10px;
+  }
+  .avail-train table td a{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#018869;
+    color: white;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+  }
+  /* Ticket Details Style */
+  .ticket-cont{
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+  }
+  .ticket-cont h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    padding-bottom: 5%;
+    color: #f2f2f2;
+  }
+  .ticket-cont input[type=submit]{
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 22px;
+    background-color:#018869;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  .ticket-cont input[type=submit]:hover{
+    background-color:#074d3d;
+    cursor: pointer;
+  }
+  .ticket-info{
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 55%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 15px;
+  }
+  .ticket-info #back{
+    position: absolute;
+    text-align: center;
+    margin: 80px 0 0 -300px;
+    font-size: 6em;
+    opacity: 0.04;
+  } 
+   .ticket-info .tick-head{
+     display: block;
+     margin: auto;
+     width: 100%;
+     text-align: left;
+  }
+  .ticket-info h6{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 5px 10px;
+    color: #018869;
+    display: inline-block;
+    text-align: left;
+  }
+  .ticket-info .tick-head .blk{
+    display: inline-block;
+    margin: 20px 100px 0 10px;
+    text-align: left;
+    width: 20%;
+ }
+  /* Checkout Style Start */
+.checkout-form{
+  margin:  30px auto;
+  display: block;
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+}
+.checkout-form form{
+  background-color: #f2f2f2;
+  width: 60%;
+  padding: 16px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.checkout-form form h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+.checkout-form form input{
+  margin: 8px 0;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 3px;
+  width: 90%;
+  height: 35px;
+  border: 1px solid #ccc;
+}
+.checkout-form form p{
+  font-size: 25px;
+  margin: 12px 0;
+}
+.checkout-form form input[type=submit]{
+  border-radius: 5px;
+  font-size: 18px;
+  background-color:#018869;
+  color: white;
+  padding: 16px auto;
+  border: none;
+}
+.checkout-form form input[type=submit]:hover{
+  background-color: rgb(33, 89, 0);
+}
+.checkout-form .cart{
+  width: 25%;
+  background-color: #f2f2f2;
+  margin: auto;
+  padding: 10px;
+  float: right;
+  border-radius: 10px;
+}
+.checkout-form .cart h3{
+  margin: 0;
+}
+.checkout-form .cart .Cartprice{
+  float: right;
+}
+.payment{
+  margin: auto;
+  height: 55vh;
+  width: 60%;
+  text-align: center;
+  padding-top:10% ;
+}
+.payment i{
+  font-size: 4em;
+  color: green;
+}
+.payment h3{
+  font-size: 28px;
+  color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+}
+.payment a{
+  color: floralwhite;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+.payment #pr{
+  margin-top: 50px;
+  background-color:#018869;
+  font-size: 15px;
+  padding: 14px;
+  width: 120px;
+  font-family: 'Montserrat', sans-serif;
+  color: floralwhite;
+  border-radius: 10px;
+  border: 1.5px solid floralwhite;
+  text-decoration: none;
+}
+/* About us section */
+.abo-con{
+  margin: 30px auto;
+  background-color: #f2f2f2;
+  width: 40%;
+  min-height: 60vh;
+  padding: 8px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+.abo-con p{
+  font-size: 20px;
+}
+.abo-con ul{
+  list-style: none;
+  margin-left: -40px;
+  font-size: 18px;
+  color: #004837;
+}
+.abo-con ul li{
+  padding: 4px 0;
+  font-weight: 1000;
+}
+.abo-con h6{
+  font-size: 20px;
+  color: #004837;
+  margin-top: -10px;
+}
+/* contact us section */
+.contact-con{
+  background-color: #fdfdfd;
+  min-height: 60vh;
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 8px;
+}
+.contact-con form{
+  width: 100%;
+  padding: 5px;
+}
+.contact-con form input[type=text]{
+  width: 50%;
+  padding: 5px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1.5px solid rgb(0, 172, 115);
+}
+.contact-con form textarea{
+  width: 50%;
+  padding: 5px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1.5px solid rgb(0, 172, 115);
+}
+.contact-con form input[type=submit]{
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+  background: rgb(0, 172, 115);
+}
+.contact-con form input[type=submit]:hover{
+  cursor: pointer;
+  color: white;
+  background: rgb(1, 80, 54);
+}
+/* ticket preview and print  */
+.tic-preview{
+  margin: 15px auto;
+  width: 50%;
+  min-height: 60vh;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.tic-preview h2{
+  text-align: center;
+  color: floralwhite;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+}
+.tic-preview img{
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.tic-preview a{
+  margin-top: 50px;
+  background-color:#018869;
+  font-size: 24px;
+  padding: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: floralwhite;
+  border-radius: 10px;
+  border: 1.5px solid floralwhite;
+}
+.tic-preview a:hover{
+  background-color:#006049;
+  cursor: pointer;
+
+}
+/* auto complete style */
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color: #16886A;
+}
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
